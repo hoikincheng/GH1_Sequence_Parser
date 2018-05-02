@@ -3,7 +3,6 @@
 # Written by: Hoikin Cheng
 
 from optparse import OptionParser
-from optparse import OptionGroup
 
 def main():
 
@@ -13,7 +12,7 @@ def main():
     help = 'The name of the file; must be in same folder.')
 
     (options, args) = parser.parse_args()
-    
+
     nt_counter = {"A" : 0, "T" : 0, "C" : 0, "G" : 0}
     total_nt = 0
 
